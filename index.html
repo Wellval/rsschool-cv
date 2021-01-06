@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
+integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+            font-family: Duality;
+            src: url(./duality.ttf);
+        }
+    </style>
+</head>
+
+<body>
+        <header>
+            <img src="./cv.jpg" width="130px" height="120px" alt="my photo">
+            <h1>Valentina Masalkova</h1>
+            <p class="position">JUNIOR FRONTEND DEVELOPER</p>
+        </header>
+        <main>
+            <div class="summary">
+                I am student of RS School Java Script Development course and my goal is
+                to become a high-skilled frontend developer. My life principle is constant
+                self-development and maintaining not only skills that are important for job,
+                but also those that can improve my efficiency and productivity.
+            </div>
+
+            <div class="wrapper">
+                <section class="leftColumn">
+                    <article>
+                        <h2>Skills</h2>
+                        <p>high level of english language</p>
+                        <p>strong communication skills</p>
+                        <p>teamwork skill</p>
+                        <p>fast learner</p>
+                        <p>basic html, css, js</p>
+                        <p>git and markdown</p>
+                    </article>
+                    <article>
+                        <h2>Experience</h2>
+                        <p class="experiencePosition">SERVICE DESK TECHNICIAN</i></p>
+                        <p class="label-grey">EPAM SYSTEMS <br> <time datetime="2019.07">07.2019</time> – <time datetime="2019.10">10.2019</time></p>
+                        <p class="jobDescription">Working with invoices of foreign companies in English and German.</p>
+                        <p class="experiencePosition">CODEWARS TASKS</p>
+                        <p class="experiencePosition">CODE-BASICS HTML, CSS AND JS COURSES</p>
+                        <p class="experiencePosition">JAVASCRIPT.RU BOOK</p>
+                    </article>
+                </section>
+                <section class="rightColumn">
+                    <article>
+                        <h2>Education</h2>
+                        <p>MINSK STATE LINGUISTIC UNIVERSITY</p> 
+                        <p class="label-grey"><time datetime="2020">2020</time> <br> SCHOOL OF TRANSLATION AND INTERPRETING</p>
+                        <p>ROLLING SCOPES SCHOOL</p>
+                        <p class="label-grey"><time datetime="2020.09">09.2020</time> <br> JAVA SCRIPT DEVELOPMENT</p>
+                    </article>
+                    <article class="code">
+                        <h2>Code Examples</h2>
+                        <pre class="code-preview">
+    
+        var isAnagram = function(test, original) {
+            let i = test.toLowerCase().split('').sort().join();
+            let k = original.toLowerCase().split('').sort().join();
+            return i === k;
+        };
+                        </pre>
+                        <pre class="code-preview">
+        function solution(str) {
+            let result = '';
+            let i = str.length - 1;
+            while (i >= 0) {
+                result = result + str[i];
+                i--;
+            }
+        return result;
+        }
+                        </pre>
+                    </article>
+                </section>
+            </div>
+            <footer>
+                <div class="container">
+                <div class="phone-number">
+                    <p><i class="fas fa-phone"></i>+375 29 228 44 30</p>
+
+                    </div>
+                <div class="email">
+                    <p><i class="fas fa-envelope"></i>vrassone@gmail.com</p>
+                </div>
+            </div>
+            </footer>
+        </main>
+</body>
+
+</html>
