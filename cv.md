@@ -59,3 +59,8 @@ function solution(str){
   return result;
 }
 ```
+
+## Contact information: <br>
+
+&ensp; phone number: +375292284430 &emsp; &emsp; &emsp; &emsp;email: vrassone@gmail.com
+
