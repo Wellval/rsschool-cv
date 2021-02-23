@@ -6,7 +6,7 @@ header {
 
 header img {
     border-radius: 90px;
-}
+}/* 
 
 .position {
     margin: 0 auto;
@@ -24,56 +24,61 @@ h1 {
     margin: 0 auto;    
     font-family: Duality;
     font-weight: lighter;
-}
+} */
 
-.leftColumn {
+/* .leftColumn {
     width: 50%;
     display: block;
     overflow: auto;
     float: left;
     text-align: center;
     height: 808px;
-}
+} */
 
-.rightColumn {
+/* .rightColumn {
     width: 50%;
     display: block;
     overflow: auto;
     float: right;
     text-align: center;
-}
+} */
 
 body {
     margin: 0;
     padding: 0;
 }
 
+main {
+    width: 100vw;
+}
+ 
 .summary {
-    text-align: center;
-    padding: 20px 130px 70px 130px;
+    width: 80%;
     font-family: sans-serif;
     font-weight: lighter;
+    text-align: center;
+    margin: auto;
 }
 
 p {
     text-transform: capitalize;
-    text-align: center;
     font-family: sans-serif;
     font-weight: lighter;
     margin-bottom: 0px;
 }
 
 article {
-    display: block;
+    display: flex;
+    flex-direction: column;
     overflow: auto;
     padding: 20px 60px 20px 60px;
     background-color: white;
     margin-bottom: 3px;
-}
+    align-items: center;
+    width: 590px;
+    justify-content: center;
+} 
 
-.experience {
-    height: 363px;   
-}
 
 .experiencePosition {
     text-decoration: underline;
@@ -83,13 +88,20 @@ article {
 
 .jobDescription {
     margin-top: 7px;
-}
+} 
 
 .wrapper {
+    /* background-color: white; */
     width: 100vw;
-    display: block;
+    display: flex;
     overflow: auto;
     background-color: rgb(194, 190, 190);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3px;
+    margin-top: 60px;
+    padding-top: 3px;
+    flex-basis: 0;
 }
 
 h2 {
@@ -99,50 +111,25 @@ h2 {
 
 .label-grey {
     color: grey;
-}
+} 
 
 .code {
-    width: fit-content;
-    padding-left: 10px;
-    padding-right: 18px;
     text-align: left;
-    margin-right: 0px;
-    padding-bottom: 5px;
-
-}
+} 
 
 .code-preview {
-    width: fit-content;
+    margin-top: 50px;
+    width: 89%;
     text-align: left;
     line-height: 25px;
     background-color: rgb(230, 225, 225);
-    margin-top: 40px;
-}
-
-.leftColumn article {
-    display: block;
-    overflow: auto;
-    padding: 33px 60px 70px 60px;
-    background-color: white;
-    margin-right: 3px;
-    margin-bottom: 3px;
-}
+    padding-top: 50px;
+}  
 
 .code h2 {
     padding-top: 3px;
     width: 50vw;
     float: left;
-}
-
-.phone-number {
-    width: 50vw;
-    float: left;
-}
-
-.email {
-    padding-top: 0px;
-    width: 50vw;
-    float: right;
 }
 
 .email > p {
@@ -151,13 +138,11 @@ h2 {
 
 footer {
     background-color: rgb(194, 190, 190);
-    width: 100%;
-    position: absolute;
-    margin-bottom: 0;
-    margin-left: 0;
-    display:table;
+    display:flex;
     padding-top: 30px;
     padding-bottom: 40px;
+    justify-content: space-around;
+    font-size: 23px;
 }
 
 .icon {
