@@ -32,6 +32,7 @@ h1 {
     overflow: auto;
     float: left;
     text-align: center;
+    height: 808px;
 }
 
 .rightColumn {
@@ -68,6 +69,10 @@ article {
     padding: 20px 60px 20px 60px;
     background-color: white;
     margin-bottom: 3px;
+}
+
+article .experience {
+    height: 310px;   
 }
 
 .experiencePosition {
