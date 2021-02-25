@@ -120,11 +120,16 @@ h2 {
 
 footer {
     background-color: rgb(194, 190, 190);
-    display:flex;
     padding-top: 30px;
     padding-bottom: 40px;
     justify-content: space-around;
     font-size: 23px;
+}
+
+.contacts {
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
 }
 
 .icon {
